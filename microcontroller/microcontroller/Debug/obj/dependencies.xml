@@ -1,150 +1,92 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dependencies>
-   <includePath signature="/I..\..\..\workspace\microcontroller\semihosting /I..\..\..\workspace\microcontroller /I..\..\..\workspace /I..\..\..\workspace\microcontroller\cmsis /I..\..\..\..\..\Users\Dmitriy\Documents /I..\..\..\workspace\microcontroller\cmsis_lib\include /I..\..\..\..\..\Users\Dmitriy /I..\..\..\..\..\Users /I..\..\..\workspace\microcontroller\cmsis_boot /I..\..\..\workspace\microcontroller\cmsis_lib">
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="16d8d4db459">
+   <includePath signature="/I..\..\..\workspace\microcontroller /I..\..\..\workspace /I..\..\..\workspace\microcontroller\cmsis /I..\..\..\workspace\microcontroller\cmsis_lib\include /I..\..\.. /I..\..\..\workspace\microcontroller\cmsis_boot /I..\..\..\workspace\microcontroller\cmsis_lib">
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="16dd639a759">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
-      <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\config.h" lastModified="16db6226821">
-         <include file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\state.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="16d8d4db463">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\blink.h" lastModified="16db5010ee7">
-      </source>
-      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16d07fbddfb">
-      </source>
-      <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\delay.h" lastModified="16db505f17f">
-      </source>
-      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16d07fbddeb">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="16db4e8f629">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="16d07fc10fa">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="16d8d4db477">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="16d8d4db482">
-         <include file="..\..\..\cmsis_lib\include\misc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16d07fbfe17">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d07fbdddb">
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="16d07fc10fa">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="16db50e8346">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="16d07fbfe08">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-   </includePath>
-   <includePath signature="/I..\..\..\workspace\microcontroller /I..\..\..\workspace /I..\..\..\workspace\microcontroller\cmsis /I..\..\..\..\..\Users\Dmitriy\Documents /I..\..\..\workspace\microcontroller\cmsis_lib\include /I..\..\..\..\..\Users\Dmitriy /I..\..\..\..\..\Users /I..\..\..\workspace\microcontroller\cmsis_boot /I..\..\..\workspace\microcontroller\cmsis_lib">
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="16d8d4db459">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\config.h" lastModified="16db6226821">
-         <include file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\state.h"/>
-      </source>
-      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16d8d4aaa73">
-      </source>
-      <source file="..\..\..\cmsis\core_cm4.h" lastModified="16d8d4aa65f">
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="16dd62b9442">
          <include file="..\..\..\cmsis\core_cmInstr.h"/>
          <include file="..\..\..\cmsis\core_cmFunc.h"/>
          <include file="..\..\..\cmsis\core_cm4_simd.h"/>
       </source>
-      <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\config.c" lastModified="16dd60da02e">
-         <include file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\config.h"/>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16dd62b9851">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="16dd639a75c">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\config.h" lastModified="16dd6379be9">
+         <include file="..\..\..\state.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16dd62b9eee">
+      </source>
+      <source file="..\..\..\config.c" lastModified="16dd6379c20">
+         <include file="..\..\..\config.h"/>
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
          <include file="..\..\..\cmsis_lib\include\misc.h"/>
-         <include file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\state.h"/>
+         <include file="..\..\..\state.h"/>
       </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="16d8d4db463">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16dd62b9eeb">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
-      <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\blink.h" lastModified="16db5010ee7">
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="16dd62bc4f7">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
-      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="16d07fbddfb">
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="16dd62bc4d5">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
-      <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\blink.c" lastModified="16dd60900fc">
-         <include file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\blink.h"/>
+      <source file="..\..\..\state.h" lastModified="16dd6379bc1">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="16dd62bf2ae">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\state.c" lastModified="16dd6379c62">
+         <include file="..\..\..\state.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\delay.h"/>
+         <include file="..\..\..\blink.h"/>
       </source>
-      <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\delay.h" lastModified="16db505f17f">
-      </source>
-      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16d07fbddeb">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="16db4e8f629">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="16d07fc10fa">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="16d8d4db477">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\delay.c" lastModified="16dd6090108">
-         <include file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\delay.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="16d07fc2c0b">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
-         <include file="..\..\..\cmsis_lib\include\misc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="16d07fbe1c3">
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="16dd62ba2c3">
          <include file="..\..\..\cmsis\core_cm4.h"/>
          <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
          <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
       </source>
-      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="16d8d4db482">
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="16dd62becfe">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
          <include file="..\..\..\cmsis_lib\include\misc.h"/>
       </source>
-      <source file="..\..\..\main.c" lastModified="16dd60da3e5">
-         <include file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\config.h"/>
-         <include file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\state.h"/>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="16dd62bf2bb">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
       </source>
-      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16d8d4aaa64">
+      <source file="..\..\..\main.c" lastModified="16dd6379f93">
+         <include file="..\..\..\config.h"/>
+         <include file="..\..\..\state.h"/>
       </source>
-      <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\state.h" lastModified="16dd60da041">
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16dd62b9844">
       </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16d07fbfe17">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16dd62ba915">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
       </source>
-      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d07fbdddb">
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16dd62b9ec7">
       </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="16d07fc10fa">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="16db50e8346">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="16dd62bc502">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
       </source>
-      <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\stat1e.c" lastModified="16dd60da018">
-         <include file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\state.h"/>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="16dd62bc4e3">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\blink.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
       </source>
-      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16d8d4aaa54">
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16dd62b9835">
       </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="16d07fbfe08">
+      <source file="..\..\..\blink.h" lastModified="16dd6379c07">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="16dd62ba908">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
    </includePath>

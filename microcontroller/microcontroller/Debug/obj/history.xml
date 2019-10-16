@@ -1,58 +1,47 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\microcontroller -I..\..\..\workspace -I..\..\..\workspace\microcontroller\cmsis -I..\..\..\..\..\Users\Dmitriy\Documents -I..\..\..\workspace\microcontroller\cmsis_lib\include -I..\..\..\..\..\Users\Dmitriy -I..\..\..\..\..\Users -I..\..\..\workspace\microcontroller\cmsis_boot -I..\..\..\workspace\microcontroller\cmsis_lib">
-      <target file="syscalls.o" lastModified="16dba4bde86">
-         <source file="..\..\..\syscalls\syscalls.c" lastModified="16dba1d63ff"/>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\microcontroller -I..\..\..\workspace -I..\..\..\workspace\microcontroller\cmsis -I..\..\..\workspace\microcontroller\cmsis_lib\include -I..\..\.. -I..\..\..\workspace\microcontroller\cmsis_boot -I..\..\..\workspace\microcontroller\cmsis_lib">
+      <target file="dealy.o" lastModified="16dd639abb8">
+         <source file="..\..\..\dealy.c" lastModified="16dd6379bd3"/>
       </target>
-      <target file="stm32f4xx_gpio.o" lastModified="16dba4bdd57">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="16d07fc10fa"/>
+      <target file="stm32f4xx_gpio.o" lastModified="16dd639ae22">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="16dd62bc4e3"/>
       </target>
-      <target file="stat1e.o" lastModified="16dd60da250">
-         <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\stat1e.c" lastModified="16dd60da018"/>
+      <target file="config.o" lastModified="16dd639ac1f">
+         <source file="..\..\..\config.c" lastModified="16dd6379c20"/>
       </target>
-      <target file="button-event-handler.o" lastModified="16dd60dd5db">
-         <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\button-event-handler.c" lastModified="16dd60dd398"/>
+      <target file="system_stm32f4xx.o" lastModified="16dd639aebf">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16dd62b9eeb"/>
       </target>
-      <target file="config.o" lastModified="16dd60da2c1">
-         <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\config.c" lastModified="16dd60da02e"/>
+      <target file="startup_stm32f4xx.o" lastModified="16dd639ac6b">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16dd62b9ec7"/>
       </target>
-      <target file="printf.o" lastModified="16dba4bdc9b">
-         <source file="..\..\..\stdio\printf.c" lastModified="16dba2b7ca7"/>
+      <target file="state.o" lastModified="16dd639ab64">
+         <source file="..\..\..\state.c" lastModified="16dd6379c62"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="16dba4bde19">
-         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16d07fbddeb"/>
+      <target file="stm32f4xx_syscfg.o" lastModified="16dd639ab13">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="16dd639a75c"/>
       </target>
-      <target file="startup_stm32f4xx.o" lastModified="16dba4bda8d">
-         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16d07fbdddb"/>
+      <target file="stm32f4xx_exti.o" lastModified="16dd639af1a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="16dd62bc502"/>
       </target>
-      <target file="stm32f4xx_syscfg.o" lastModified="16dba4bd94c">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="16d8d4db463"/>
+      <target file="button-handler.o" lastModified="16dd63bd714">
+         <source file="..\..\..\button-handler.c" lastModified="16dd6379c51"/>
       </target>
-      <target file="stm32f4xx_exti.o" lastModified="16dba4bdee3">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="16db50e8346"/>
+      <target file="main.o" lastModified="16dd639acc4">
+         <source file="..\..\..\main.c" lastModified="16dd6379bab"/>
       </target>
-      <target file="main.o" lastModified="16dd60da38e">
-         <source file="..\..\..\main.c" lastModified="16dd60d9ffd"/>
+      <target file="blink.o" lastModified="16dd63bd6c2">
+         <source file="..\..\..\blink.c" lastModified="16dd63bd44b"/>
       </target>
-      <target file="blink.o" lastModified="16dd609082d">
-         <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\blink.c" lastModified="16dd60900fc"/>
+      <target file="delay.o" lastModified="16dd63bd672">
+         <source file="..\..\..\delay.c" lastModified="16dd63bd45c"/>
       </target>
-      <target file="delay.o" lastModified="16dd60907ad">
-         <source file="..\..\..\..\..\..\..\Users\Dmitriy\Documents\delay.c" lastModified="16dd6090108"/>
+      <target file="stm32f4xx_rcc.o" lastModified="16dd639ad4b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16dd62ba915"/>
       </target>
-      <target file="stm32f4xx_rcc.o" lastModified="16dba4bdbcd">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16d07fbfe17"/>
-      </target>
-      <target file="misc.o" lastModified="16dba4bdf3e">
-         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="16d8d4db482"/>
-      </target>
-   </processor>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\microcontroller\semihosting -I..\..\..\workspace\microcontroller -I..\..\..\workspace -I..\..\..\workspace\microcontroller\cmsis -I..\..\..\..\..\Users\Dmitriy\Documents -I..\..\..\workspace\microcontroller\cmsis_lib\include -I..\..\..\..\..\Users\Dmitriy -I..\..\..\..\..\Users -I..\..\..\workspace\microcontroller\cmsis_boot -I..\..\..\workspace\microcontroller\cmsis_lib">
-      <target file="sh_cmd.o" lastModified="16dba2a9867">
-         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="16dba2a54ff"/>
-      </target>
-      <target file="semihosting.o" lastModified="16dba2a9444">
-         <source file="..\..\..\semihosting\semihosting.c" lastModified="16dba2a54fc"/>
+      <target file="misc.o" lastModified="16dd639af70">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="16dd62bf2bb"/>
       </target>
    </processor>
 </history>
