@@ -5,6 +5,5 @@
 #include <state.h>
 
 void setConfig();
-struct StateDef getStateInstance();
 
 #endif

@@ -8,8 +8,7 @@ void EXTI0_IRQHandler(void){
 	if(EXTI_GetITStatus(EXTI_Line0) != RESET){
 	    delay(10000);
 	    if(GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_0) == 1){
-	        struct StateDef state = getStateInstance();
-	        toggleStateMode(state);
+	        toggleStateMode();
 	    }
 	    EXTI_ClearITPendingBit(EXTI_Line0);
 	}

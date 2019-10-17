@@ -8,7 +8,6 @@
 #include <state.h>
 
 GPIO_InitTypeDef GPIO_InitStruct;
-struct StateDef state;
 
 void setConfig() {
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
@@ -42,10 +41,4 @@ void setConfig() {
 	NVIC_Init(&NVIC_InitStruct);
 
 	GPIO_ResetBits(GPIOD, GPIO_Pin_15);
-
-	state.value = 1;
-}
-
-struct StateDef getStateInstance() {
-	return state;
 }

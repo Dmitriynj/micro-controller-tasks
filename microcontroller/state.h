@@ -6,7 +6,12 @@ struct StateDef {
   int value;
 };
 
-void executeState(struct StateDef state);
-void toggleStateMode(struct StateDef state);
+void initState();
+
+void setState(struct StateDef);
+struct StateDef getState();
+
+void executeState();
+void toggleStateMode();
 
 #endif
