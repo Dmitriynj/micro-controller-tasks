@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\microcontroller-2\cmsis_lib -I..\..\..\workspace\microcontroller-2\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\microcontroller-2 -I..\..\..\workspace\microcontroller-2\cmsis -I..\..\..\workspace\microcontroller-2\cmsis_lib\include -I..\..\..">
+      <target file="stm32f4xx_gpio.o" lastModified="16de487c432">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="16ddb384668"/>
+      </target>
+      <target file="timer-4-handler.o" lastModified="16de4ea4115">
+         <source file="..\..\..\timer-4-handler.c" lastModified="16de4ea3d31"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="16de487c9b5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="16ddb42a5cb"/>
+      </target>
+      <target file="config.o" lastModified="16de4e8a4e1">
+         <source file="..\..\..\config.c" lastModified="16de4e8a18c"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="16de487c51c">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16dde9c0c22"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16de487bff2">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16ddb3837ca"/>
+      </target>
+      <target file="state.o" lastModified="16de4bec375">
+         <source file="..\..\..\state.c" lastModified="16de498ac4c"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="16de487bdff">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="16ddb387416"/>
+      </target>
+      <target file="timer-3-handler.o" lastModified="16de4dfe424">
+         <source file="..\..\..\timer-3-handler.c" lastModified="16de4dfe0ca"/>
+      </target>
+      <target file="main.o" lastModified="16de4d987ac">
+         <source file="..\..\..\main.c" lastModified="16de4c61370"/>
+      </target>
+      <target file="on-button-pressed-logic.o" lastModified="16de4ebe44e">
+         <source file="..\..\..\on-button-pressed-logic.c" lastModified="16de4ebe12a"/>
+      </target>
+      <target file="blink-logic.o" lastModified="16de4c61910">
+         <source file="..\..\..\blink-logic.c" lastModified="16de4c6133d"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="16de487c20c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16ddb3837b6"/>
+      </target>
+      <target file="misc.o" lastModified="16de487c7fa">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="16ddb393011"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\microcontroller-2\cmsis_lib -I..\..\..\workspace\microcontroller -I..\..\..\workspace\microcontroller-2\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\microcontroller-2 -I..\..\..\workspace\microcontroller-2\cmsis -I..\..\..\workspace\microcontroller-2\cmsis_lib\include -I..\..\..">
+      <target file="timer-2-handler.o" lastModified="16dde7c0cbd">
+         <source file="..\..\..\timer-2-handler.c" lastModified="16dde7c0abf"/>
+      </target>
+   </processor>
+</history>

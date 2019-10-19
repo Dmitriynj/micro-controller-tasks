@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=microcontroller-2.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\microcontroller-2 -TC:\CooCox\CoIDE\configuration\ProgramData\microcontroller-2/link.ld -g">
+      <target file="microcontroller-2.elf" lastModified="16de4ebe693">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="16de487bdff"/>
+         <source file="..\obj\state.o" lastModified="16de4bec375"/>
+         <source file="..\obj\config.o" lastModified="16de4e8a4e1"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16de487bff2"/>
+         <source file="..\obj\main.o" lastModified="16de4d987ac"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="16de487c20c"/>
+         <source file="..\obj\timer-4-handler.o" lastModified="16de4ea4115"/>
+         <source file="..\obj\on-button-pressed-logic.o" lastModified="16de4ebe44e"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="16de487c432"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16de487c51c"/>
+         <source file="..\obj\timer-3-handler.o" lastModified="16de4dfe424"/>
+         <source file="..\obj\blink-logic.o" lastModified="16de4c61910"/>
+         <source file="..\obj\misc.o" lastModified="16de487c7fa"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="16de487c9b5"/>
+      </target>
+   </processor>
+</history>

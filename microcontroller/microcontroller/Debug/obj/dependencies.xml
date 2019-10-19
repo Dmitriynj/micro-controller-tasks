@@ -47,8 +47,6 @@
          <include file="..\..\..\cmsis_lib\include\misc.h"/>
          <include file="..\..\..\state.h"/>
       </source>
-      <source file="..\..\..\state.h" lastModified="16ddb285a74">
-      </source>
       <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="16dd62b9eeb">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
@@ -58,8 +56,15 @@
       <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="16dd62bc4d5">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
+      <source file="..\..\..\state.h" lastModified="16ddb285a74">
+      </source>
       <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="16dd62bf2ae">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\state.c" lastModified="16ddb285a8b">
+         <include file="..\..\..\state.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\blink.h"/>
       </source>
       <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="16dd62becfe">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
@@ -76,23 +81,23 @@
       <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="16dd62bf2bb">
          <include file="..\..\..\cmsis_lib\include\misc.h"/>
       </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16dd62b9844">
+      </source>
       <source file="..\..\..\main.c" lastModified="16ddb267697">
          <include file="..\..\..\config.h"/>
          <include file="..\..\..\state.h"/>
-      </source>
-      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16dd62b9844">
       </source>
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="16dd62ba915">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
       </source>
       <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16dd62b9ec7">
       </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="16dd62bc502">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
-      </source>
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="16dd62bc4e3">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="16dd62bc502">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
       </source>
       <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16dd62b9835">
       </source>
